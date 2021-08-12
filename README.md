@@ -11,6 +11,8 @@ Our application is envisioned to be able to classify car makes from a video by u
 - Stanford Cars Dataset - https://www.kaggle.com/jessicali9530/stanford-cars-dataset
 - Car Make Classification Model
 
+## Instructions for use
+
 
 
 
