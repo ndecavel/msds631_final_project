@@ -14,8 +14,11 @@ Our application is envisioned to be able to classify car makes from a video by u
 
 
 ## Demo
-Here is a brief demo of our application at work. On the left is every tenth frame of an unseen dash cam video after the YOLOv5 model is applied. As one can see, the cars are identified in each frame, and those bounding box and still frames are fed into our classification model. On the right is the distribution of car makes in that particular image.
+Here is a brief demo of our application at work. On the left is every tenth frame of an unseen dash cam video after the YOLOv5 model is applied. As one can see, the cars are identified in each frame, and those bounding box and still frames are fed into our classification model. On the right is the distribution of car makes in that particular image:
+
 ![](https://github.com/ndecavel/msds631_final_project/blob/main/images/mygif.gif)
+
+As one might notice, the distribution of car models is quite inconsistent pointing to poor accuracy for our classification model. In the future we hope to improve accuracy in a couple of ways:
 
 ## Instructions for use
 
