@@ -15,8 +15,6 @@ Our application is envisioned to be able to classify car makes from a video by u
 
 ## Demo
 
-![img](https://lh3.googleusercontent.com/C8140GrvudyQW4ytuM1Gj6amJUdwcOrhP6z-eZcszF0CKDPYwU4ohhwsR5rXIBrlUQqp7UHjSbU4W-5fvH1vfnT3yA3Y9MQ53jGM9bKd8o-I-hTezEDroGix5GHc9PJDHVgufBbZDeI)
-
 ## Instructions for use
 
 
