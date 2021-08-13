@@ -14,6 +14,7 @@ Our application is envisioned to be able to classify car makes from a video by u
 
 
 ## Demo
+![](https://github.com/ndecavel/msds631_final_project/blob/main/images/mygif.gif)
 
 ## Instructions for use
 
