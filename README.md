@@ -1,4 +1,5 @@
 # Automobile Make Classification of Videos
+Nicolas Decavel-Bueff and Kyle Brooks
 
 ## Description
 
