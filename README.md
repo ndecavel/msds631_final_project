@@ -3,13 +3,16 @@ Nicolas Decavel-Bueff and Kyle Brooks
 
 ## Description
 
-Our application is envisioned to be able to classify car makes from a video by using a variety of technologies. To do so we are implementing two main models: 1) YOLOv5 with frozen backbone layers trained on our video dataset (Berkeley DeepDrive) to detect automobiles, and 2) Car make classification model trained on the Stanford Cars Dataset. Once our models are trained, a traffic video will be inputted into the YOLO model to identify the cars and every tenth frame will be fed to the classification model to identify what make each of the automobiles are. We can generate a distribution of car makes within each frame, to assess if/how the distribution of car makes is changing.
+Our application is envisioned to be able to classify car makes from a video by using a variety of technologies. To do so we are implementing two main models: 1) YOLOv5 with frozen backbone layers trained on our video dataset (Berkeley DeepDrive) to detect automobiles, and 2) Car make classification model trained on the Stanford Cars Dataset. Once our models are trained, a traffic video will be inputted into the YOLO model to identify the cars and every tenth frame will be fed to the classification model to identify the make of each automobile. We can generate a distribution of car makes within each frame, to assess if/how the distribution of car makes is changing.
 
 ## Technologies Used
 
 - YOLOv5 - https://github.com/ultralytics/yolov5
+  - pretrained architectures and models on the Common Objects in Context (COCO) dataset
 - Berkeley DeepDrive Dash-cam Dataset - https://bdd-data.berkeley.edu/
+  - additionally train pretrained YOLOv5 model with this data
 - Stanford Cars Dataset - https://www.kaggle.com/jessicali9530/stanford-cars-dataset
+  - contains 16,185 images of 196 classes of cars and we will be focusing in on the predicting the make
 - Car Make Classification Model - Resnet101 (trained on Stanford cars dataset)
 
 
