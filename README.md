@@ -24,6 +24,16 @@ As one can see in the gif, the distribution of car models is quite inconsistent 
 1) Add granularity as augmentation for Standford Cars dataset images to help deal with image quality issues
 2) Train classification model on a different dataset or include more images of cars from behind.
 
+## Test it yourself with your own dash-cam footage!
+To generate a gif like the demo shown, follow the following steps:
+1) Clone this repository
+2) In data directory, add the mp4 file of the dash-cam footage
+3) In the 5th cell of the Final Project notebook, change the `input_video_path` variable to reflect your video (e.g. `data/your_video.mp4'
+4) Run the notebook
+5) Upon completion of the notebook, the generated gif will be in the root directory and is called `mygif.gif`
+
+
+
 
 
 
