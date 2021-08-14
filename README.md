@@ -15,7 +15,7 @@ Our application is envisioned to be able to classify car makes from a video by u
 
 
 ## Demo
-Here is a brief demo of our application at work. On the left is every tenth frame of an unseen dash cam video after the YOLOv5 model is applied. This implementation is quite successful, as one can see for the most part that only the cars have green bounding boxes around them (and other vehicles such as trucks do not). As one can see, the cars are identified in each frame, and those bounding box and still frames are fed into our classification model. On the right is the distribution of car makes resulting from our model in that particular image:
+Here is a brief demo of our application at work. On the left is every tenth frame of an unseen dash cam video after the YOLOv5 model is applied. This implementation is quite successful as for the most part only the cars have green bounding boxes around them and other vehicles such as trucks do not. As one can see, the cars are identified in each frame, and those bounding boxes and still frames are fed into our classification model. On the right is the distribution of car makes resulting from our model in that particular image:
 
 ![](https://github.com/ndecavel/msds631_final_project/blob/main/images/mygif.gif)
 
@@ -26,10 +26,10 @@ As one can see in the gif, the distribution of car models is quite inconsistent 
 2) Train classification model on a different dataset or include more images of cars from behind.
 
 ## Test it yourself with your own dash-cam footage!
-To generate a gif like the demo shown, follow the following steps:
+To generate a gif like the demo shown, use the following steps:
 1) Clone this repository
 2) In data directory, add the mp4 file of the dash-cam footage
-3) In the 5th cell of the Final Project notebook, change the `input_video_path` variable to reflect your video (e.g. `data/your_video.mp4`)
+3) In the 5th cell of the Final Project notebook, change the `input_video_path` variable to reflect your video path (e.g. `data/your_video.mp4`)
 4) Run the notebook
 5) Upon completion of the notebook, the generated gif will be in the root directory and is called `mygif.gif`
 
