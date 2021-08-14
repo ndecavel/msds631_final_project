@@ -21,7 +21,7 @@ Here is a brief demo of our application at work. On the left is every tenth fram
 
 
 ## Next Steps
-As one can see in the gif, the distribution of car models is quite inconsistent with each subsequent frame, suggesting that our classification model is having issues classifying from the dash-cam. We believe this may be due to the poor quality of the dash-cam videos, and as well as the fact the cars dataset primarily has images taken from the front (not like from behind in the case of the dash-cams). In the future we hope to improve accuracy in a couple of ways:
+As one can see in the gif, the distribution of car models is quite inconsistent with each subsequent frame, suggesting that our classification model is having issues classifying from the dash-cam footage. We believe this may be due to the poor quality of the dash-cam videos, and as well as the fact the cars dataset primarily has images taken from the front (not like from behind in the case of the dash-cams). In the future we hope to improve accuracy in a couple of ways:
 1) Add granularity as augmentation for Standford Cars dataset images to help deal with image quality issues
 2) Train classification model on a different dataset or include more images of cars from behind.
 
